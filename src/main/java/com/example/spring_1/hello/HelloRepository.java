@@ -1,3 +1,7 @@
 package com.example.spring_1.hello;
 
-public class HelloRepository {}
+import org.springframework.http.converter.xml.SourceHttpMessageConverter;
+
+public class HelloRepository {
+    SourceHttpMessageConverter
+}
