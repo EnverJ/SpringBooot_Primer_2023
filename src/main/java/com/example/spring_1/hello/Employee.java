@@ -6,7 +6,7 @@ import lombok.Data;
 public class Employee {
   private String employeeId;
   private String employeeName;
-  private String employeeAge;
+  private Integer employeeAge;
 
   public String getEmployeeId() {
     return this.employeeId;
@@ -24,11 +24,11 @@ public class Employee {
     this.employeeName = employeeName;
   }
 
-  public String getEmployeeAge() {
+  public Integer getEmployeeAge() {
     return this.employeeAge;
   }
 
-  public void setEmployeeAge(String employeeAge) {
+  public void setEmployeeAge(Integer employeeAge) {
     this.employeeAge = employeeAge;
   }
 }
