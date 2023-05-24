@@ -12,7 +12,7 @@ public class HelloRepository {
 
   public Map<String, Object> findById(String id) {
     // Select statement
-    String query = "SELECT*" + " FROM employee" + "WHERE id=?";
+    String query = "SELECT*" + " FROM employee" + " WHERE id=?";
 
     // Search execution
     Map<String, Object> employee = jdbcTemplate.queryForMap(query, id);

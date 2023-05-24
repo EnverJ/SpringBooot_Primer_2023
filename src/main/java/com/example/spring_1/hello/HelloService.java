@@ -23,7 +23,7 @@ public class HelloService {
     Employee employee = new Employee();
     employee.setEmployeeId(employeeId);
     employee.setEmployeeName(name);
-    employee.setEmployeeAge("age");
+    employee.setEmployeeAge(age);
     return employee;
   }
 }
